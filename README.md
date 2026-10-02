@@ -13,6 +13,10 @@ GPU image box-filtering project written in CUDA. It applies convolution filters 
   * Hysteresis, promoting weak pixels connected to strong ones
   * Optional outline step for thicker, more defined edges
 * Maximum value of the image obtained with a parallel reduction, used to set the thresholds
+<p align = "center">
+ <img width="450" height="360" alt="raw" src="https://github.com/user-attachments/assets/b133d587-0690-4ae0-a426-a803bf1fa0af" />
+ <img width="450" height="360" alt="canny edge" src="https://github.com/user-attachments/assets/50b12f06-c118-4f12-bc8d-9cf7d697f52f" />
+</p>
 
 **Single filters**
 * Generic convolution kernel with border handling by clamping (edge values are repeated)
