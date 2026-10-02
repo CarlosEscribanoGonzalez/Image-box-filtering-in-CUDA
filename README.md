@@ -14,8 +14,8 @@ GPU image box-filtering project written in CUDA. It applies convolution filters 
   * Optional outline step for thicker, more defined edges
 * Maximum value of the image obtained with a parallel reduction, used to set the thresholds
 <p align = "center">
- <img width="450" height="360" alt="raw" src="https://github.com/user-attachments/assets/b133d587-0690-4ae0-a426-a803bf1fa0af" />
- <img width="450" height="360" alt="canny edge" src="https://github.com/user-attachments/assets/50b12f06-c118-4f12-bc8d-9cf7d697f52f" />
+ <img width="300" height="240" alt="raw" src="https://github.com/user-attachments/assets/b133d587-0690-4ae0-a426-a803bf1fa0af" />
+ <img width="300" height="240" alt="canny edge" src="https://github.com/user-attachments/assets/50b12f06-c118-4f12-bc8d-9cf7d697f52f" />
 </p>
 
 **Single filters**
