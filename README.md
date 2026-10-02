@@ -22,6 +22,10 @@ GPU image box-filtering project written in CUDA. It applies convolution filters 
 * Generic convolution kernel with border handling by clamping (edge values are repeated)
 * Per-channel processing: the image is split into its RGB channels, filtered and recombined
 * Included filters: Gaussian blur, Laplacian, sharpening, horizontal and vertical Sobel, edge detection and 5x5 sharpness
+<p align = "center">
+ <img width="300" height="240" alt="laplacian" src="https://github.com/user-attachments/assets/73d9931f-d2b9-4f49-b2b2-27a41de32773" />
+ <img width="300" height="240" alt="edge detection" src="https://github.com/user-attachments/assets/fd4b908c-f098-4881-b48e-1467e20f7622" />
+</p>
 
 **Configurable behavior**
 * Switch between Canny Edge Detector and single filters by changing `#define`s in the source code
@@ -40,7 +44,7 @@ The project was used to compare optimization techniques on different image sizes
 ## Usage
 * Open the project in Visual Studio with the CUDA Toolkit installed
 * Run it with the input image as a command line argument
-* To use a single filter instead of Canny, switch the corresponding `#define` in the source and pass the filter as an additional argument
+* To use a single filter instead of Canny, switch the corresponding `#define` in the source and pass the filter as an additional argument. Make sure that the variable FILTERSIZE matches the chosen filter.
 * The filtered image is saved as output
 
 ## Technologies
