@@ -14,8 +14,8 @@ GPU image box-filtering project written in CUDA. It applies convolution filters 
   * Optional outline step for thicker, more defined edges
 * Maximum value of the image obtained with a parallel reduction, used to set the thresholds
 <p align = "center">
- <img width="300" height="240" alt="canny edge" src="https://github.com/user-attachments/assets/50b12f06-c118-4f12-bc8d-9cf7d697f52f" />
- <img width="425" height="240" alt="canny_nocaption" src="https://github.com/user-attachments/assets/a7eb448c-20d9-4f83-abbc-1b8a36037060" />
+ <img width="300" height="240" alt="canny edge" src="https://github.com/user-attachments/assets/8de58ec9-6a6e-4c5c-940c-8fbf5566e1b0" />
+ <img width="425" height="240" alt="canny edge" src="https://github.com/user-attachments/assets/a7eb448c-20d9-4f83-abbc-1b8a36037060" />
 </p>
 
 **Single filters**
@@ -23,8 +23,8 @@ GPU image box-filtering project written in CUDA. It applies convolution filters 
 * Per-channel processing: the image is split into its RGB channels, filtered and recombined
 * Included filters: Gaussian blur, Laplacian, sharpening, horizontal and vertical Sobel, edge detection and 5x5 sharpness
 <p align = "center">
- <img width="300" height="240" alt="laplacian" src="https://github.com/user-attachments/assets/73d9931f-d2b9-4f49-b2b2-27a41de32773" />
- <img width="300" height="240" alt="edge detection" src="https://github.com/user-attachments/assets/fd4b908c-f098-4881-b48e-1467e20f7622" />
+ <img width="300" height="240" alt="laplacian" src="https://github.com/user-attachments/assets/d6cf18a0-d4eb-4207-80de-1ef1a792bc83" />
+ <img width="300" height="240" alt="edge detection" src="https://github.com/user-attachments/assets/15dffd26-51f1-495c-a667-91095737019f" />
 </p>
 
 **Configurable behavior**
